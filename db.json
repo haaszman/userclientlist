@@ -1,146 +1,102 @@
 {
-    "userclientlist": [
-        {
-          "clientId": 2,
-          "extendedName": "Gamma Telecom Ltd - 44000002",
-          "rid": "BVQ",
-          "parentClientId": 2
-        },
-        {
-            "clientId": 169,
-            "extendedName": "XXXX - Gamma Test 1 - 44000169",
-            "rid": "BVQ",
-            "parentClientId": 2
-        },
-        {
-          "clientId": 1165,
-          "extendedName": "XXXX Gamma Unbreakable Blocks of 1000 - 44001165",
-          "rid": "BVQ",
-          "parentClientId": 2
-        },
-        {
-          "clientId": 170,
-          "extendedName": "XXXX Gamma Test Premium - 44000170",
-          "rid": "BVQ",
-          "parentClientId": 2
-        },
-        {
-          "clientId": 1737,
-          "extendedName": "Gamma Horizon - 44001737",
-          "rid": "BVQ",
-          "parentClientId": 2
-        },
-        {
-          "clientId": 1994,
-          "extendedName": "Gamma 0343 Numbers Account (Ceased) - 44001994",
-          "rid": "BVQ",
-          "parentClientId": 2
-        },
-        {
-          "clientId": 2307,
-          "extendedName": "Gamma 0203 Numbers Account - 44002307",
-          "rid": "BVQ",
-          "parentClientId": 2
-        },
-        {
-            "clientId": 1389,
-            "extendedName": "XXXX Gamma UAT 2 - 44001389",
-            "rid": "BVQ",
-            "parentClientId": 2
-        },
-        {
-            "clientId": 1388,
-            "extendedName": "XXXX Gamma UAT 1 - 44001388",
-            "rid": "BVQ",
-            "parentClientId": 2
-        },
-        {
-            "clientId": 1390,
-            "extendedName": "XXXX Gamma UAT 3 - 44001390",
-            "rid": "BVQ",
-            "parentClientId": 2
-        }
-    ],
-    "usermetadata": {
-        "accountId": 15600,
-        "fullname": "David Haasz",
-        "unreadNotificationCount": 145,
-        "showPasswordWarning": false,
-        "daysUntilPasswordExpiry": 56,
-        "userType": "INTERNAL"
+  "userclientlist": [
+    {
+      "clientId": 2,
+      "extendedName": "Gamma Telecom Ltd - 44000002",
+      "rid": "BVQ",
+      "parentClientId": 2
     },
-    "usermenu": [
+    {
+      "clientId": 169,
+      "extendedName": "XXXX - Gamma Test 1 - 44000169",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 1165,
+      "extendedName": "XXXX Gamma Unbreakable Blocks of 1000 - 44001165",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 170,
+      "extendedName": "XXXX Gamma Test Premium - 44000170",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 1737,
+      "extendedName": "Gamma Horizon - 44001737",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 1994,
+      "extendedName": "Gamma 0343 Numbers Account (Ceased) - 44001994",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 2307,
+      "extendedName": "Gamma 0203 Numbers Account - 44002307",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 1389,
+      "extendedName": "XXXX Gamma UAT 2 - 44001389",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 1388,
+      "extendedName": "XXXX Gamma UAT 1 - 44001388",
+      "rid": "BVQ",
+      "parentClientId": 2
+    },
+    {
+      "clientId": 1390,
+      "extendedName": "XXXX Gamma UAT 3 - 44001390",
+      "rid": "BVQ",
+      "parentClientId": 2
+    }
+  ],
+  "usermetadata": {
+    "accountId": 15600,
+    "fullname": "David Haasz",
+    "unreadNotificationCount": 145,
+    "showPasswordWarning": false,
+    "daysUntilPasswordExpiry": 56,
+    "userType": "INTERNAL"
+  },
+  "usermenu": [
+    {
+      "type": "GROUP",
+      "id": 6,
+      "name": "Provisioning & Service Management",
+      "childMenuItems": [
         {
           "type": "GROUP",
-          "id": 6,
-          "name": "Provisioning & Service Management",
+          "id": 57,
+          "name": "Contact Management",
           "childMenuItems": [
             {
               "type": "GROUP",
-              "id": 57,
-              "name": "Contact Management",
-              "childMenuItems": [
-                {
-                  "type": "GROUP",
-                  "id": 121,
-                  "name": "999 Emergency Contact",
-                  "childMenuItems": [
-                    {
-                      "type": "DIRECT",
-                      "id": 279,
-                      "name": "Check Bulk Update Progress",
-                      "url": "/framework/bulk/search.jspa",
-                      "openInNewWindow": false
-                    },
-                    {
-                      "type": "DIRECT",
-                      "id": 283,
-                      "name": "Health Check",
-                      "url": "/framework/ecdHealthCheck.jspa",
-                      "openInNewWindow": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "GROUP",
-              "id": 65,
-              "name": "Gamma Migrations",
+              "id": 121,
+              "name": "999 Emergency Contact",
               "childMenuItems": [
                 {
                   "type": "DIRECT",
-                  "id": 289,
-                  "name": "Manual Migration Search",
-                  "url": "/troubleticket/migration.jspa",
-                  "openInNewWindow": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "GROUP",
-          "id": 1,
-          "name": "Reporting",
-          "childMenuItems": [
-            {
-              "type": "GROUP",
-              "id": 151,
-              "name": "Reporting",
-              "childMenuItems": [
-                {
-                  "type": "DIRECT",
-                  "id": 153,
-                  "name": "Subscribe to Notifications and Push Reports",
-                  "url": "/pushReporting2/NewSubscribeNotificationsInput.jspa",
+                  "id": 279,
+                  "name": "Check Bulk Update Progress",
+                  "url": "/framework/bulk/search.jspa",
                   "openInNewWindow": false
                 },
                 {
                   "type": "DIRECT",
-                  "id": 274,
-                  "name": "View My Notifications",
-                  "url": "/pushReporting2/ViewNotifications.jspa",
+                  "id": 283,
+                  "name": "Health Check",
+                  "url": "/framework/ecdHealthCheck.jspa",
                   "openInNewWindow": false
                 }
               ]
@@ -149,38 +105,432 @@
         },
         {
           "type": "GROUP",
-          "id": 7,
-          "name": "Help & Support",
+          "id": 65,
+          "name": "Gamma Migrations",
           "childMenuItems": [
             {
               "type": "DIRECT",
-              "id": 364,
-              "name": "Contact Us",
-              "url": "/partnerinfo/customerserviceplan.jspa",
-              "openInNewWindow": false
-            },
-            {
-              "type": "DIRECT",
-              "id": 244,
-              "name": "Gamma Academy",
-              "url": "/academy/login.jspa",
-              "openInNewWindow": true
-            },
-            {
-              "type": "DIRECT",
-              "id": 257,
-              "name": "Service Status Noticeboard",
-              "url": "/incidenthub/incidentHubNoticeBoard2.jspa",
-              "openInNewWindow": false
-            },
-            {
-              "type": "DIRECT",
-              "id": 47,
-              "name": "Gamma Search",
-              "url": "/assetchecker/assetcheckerinput.jspa",
+              "id": 289,
+              "name": "Manual Migration Search",
+              "url": "/troubleticket/migration.jspa",
               "openInNewWindow": false
             }
           ]
         }
       ]
+    },
+    {
+      "type": "GROUP",
+      "id": 1,
+      "name": "Reporting",
+      "childMenuItems": [
+        {
+          "type": "GROUP",
+          "id": 151,
+          "name": "Reporting",
+          "childMenuItems": [
+            {
+              "type": "DIRECT",
+              "id": 153,
+              "name": "Subscribe to Notifications and Push Reports",
+              "url": "/pushReporting2/NewSubscribeNotificationsInput.jspa",
+              "openInNewWindow": false
+            },
+            {
+              "type": "DIRECT",
+              "id": 274,
+              "name": "View My Notifications",
+              "url": "/pushReporting2/ViewNotifications.jspa",
+              "openInNewWindow": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "GROUP",
+      "id": 7,
+      "name": "Help & Support",
+      "childMenuItems": [
+        {
+          "type": "DIRECT",
+          "id": 364,
+          "name": "Contact Us",
+          "url": "/partnerinfo/customerserviceplan.jspa",
+          "openInNewWindow": false
+        },
+        {
+          "type": "DIRECT",
+          "id": 244,
+          "name": "Gamma Academy",
+          "url": "/academy/login.jspa",
+          "openInNewWindow": true
+        },
+        {
+          "type": "DIRECT",
+          "id": 257,
+          "name": "Service Status Noticeboard",
+          "url": "/incidenthub/incidentHubNoticeBoard2.jspa",
+          "openInNewWindow": false
+        },
+        {
+          "type": "DIRECT",
+          "id": 47,
+          "name": "Gamma Search",
+          "url": "/assetchecker/assetcheckerinput.jspa",
+          "openInNewWindow": false
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "name": "billing",
+      "displayName": "Billing",
+      "help": "Select this option for any billing queries. You may find it useful to check the <a href='/billing/BillingHome.jspa'>Billing Home</a> page first.",
+      "standalone": true
+    },
+    {
+      "name": "porting",
+      "displayName": "Porting",
+      "information": "Select this option for any port order queries including Geographic, Non Geographic, IPEx, Manual or Mixed Operator ports.",
+      "standalone": true
+    },
+    {
+      "name": "faults",
+      "displayName": "Faults",
+      "information": "Select this option for any new or open fault tickets.",
+      "standalone": false
+    },
+    {
+      "name": "orders",
+      "displayName": "Orders",
+      "information": "Select this option for any new or open orders, including numbering queries.",
+      "standalone": false
+    },
+    {
+      "name": "sales",
+      "displayName": "Sales",
+      "information": "Select this option to speak to someone about Sales Support or Commercial Enquiries.",
+      "standalone": false
+    },
+    {
+      "name": "fraud",
+      "displayName": "Fraud",
+      "information": "Select this option to speak to someone about fraud queries.",
+      "standalone": true
+    },
+    {
+      "name": "numbering",
+      "displayName": "Numbering",
+      "information": "Select this option to speak to someone about managing your numbers",
+      "standalone": true
+    },
+    {
+      "name": "bureau",
+      "displayName": "Bureau",
+      "information": "Select this option to speak to someone about Gamma's bureau scheme",
+      "standalone": true
+    },
+    {
+      "name": "professional",
+      "displayName": "Professional Services",
+      "information": "Select this option to speak to someone about Gamma's professional services",
+      "standalone": true
+    }
+  ],
+  "customertypes": [
+    {
+      "name": "channel",
+      "displayName": "Channel"
+    },
+    {
+      "name": "carrier",
+      "displayName": "Carrier"
+    }
+  ],
+  "products": [
+    {
+      "name": "broadband",
+      "displayName": "Broadband",
+      "subtitle": "Standard, Assured or Converged Broadband"
+    },
+    {
+      "name": "ethernet",
+      "displayName": "Ethernet",
+      "subtitle": "Including support for The Loop"
+    },
+    {
+      "name": "inbound",
+      "displayName": "Inbound",
+      "subtitle": "Inbound, NTS & Audio Conferencing"
+    },
+    {
+      "name": "wlr",
+      "displayName": "WLR",
+      "subtitle": "WLR3"
+    },
+    {
+      "name": "sip",
+      "displayName": "SIP Trunking",
+      "subtitle": "SIP Trunking (IPDC/IPIC)"
+    },
+    {
+      "name": "horizon",
+      "displayName": "Horizon",
+      "subtitle": "Horizon"
+    },
+    {
+      "name": "cpsida",
+      "displayName": "CPS & IDA",
+      "subtitle": "CPS & IDA"
+    },
+    {
+      "name": "mobile",
+      "displayName": "Mobile",
+      "subtitle": "Mobile Voice & Data"
+    },
+    {
+      "name": "cloud",
+      "displayName": "Cloud Services",
+      "subtitle": "Cloud Services"
+    },
+    {
+      "name": "CPN",
+      "displayName": " CPN",
+      "subtitle": "CPN"
+    },
+    {
+      "name": "sipInternational",
+      "displayName": "International SIP",
+      "subtitle": "International SIP"
+    },
+    {
+      "name": "directrouting",
+      "displayName": "Microsoft Teams - Direct Routing",
+      "subtitle": "Microsoft Teams - Direct Routing"
+    },
+    {
+      "name": "phonelineplus",
+      "displayName": "PhoneLine+",
+      "subtitle": "PhoneLine+"
+    }
+  ],
+  "plans": [
+    {
+      "issue": {
+        "name": "numbering",
+        "displayName": "Numbering",
+        "information": "Select this option to speak to someone about managing your numbers",
+        "standalone": true
+      },
+      "serviceDesk": {
+        "displayName": "Gamma Numbers Desk",
+        "contacNumber": "0123456789",
+        "currentlyOpen": true,
+        "alwaysOpen": false,
+        "openingTimes": [
+          {
+            "day": "Monday - Friday",
+            "openTime": "08:00",
+            "closeTime": "18:00"
+          }
+        ]
+      },
+      "contactEmails": [
+        "notrealsupportemail@gamma.co.uk"
+      ],
+      "escalations": [
+        {
+          "name": "Numbering Jeopardy",
+          "role": "Numbering",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 1,
+          "outOfHours": false
+        },
+        {
+          "name": "Rebecca De Las Heras",
+          "role": "Head Of Support Services",
+          "email": "rebecca.delasheras@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 3,
+          "outOfHours": false
+        },
+        {
+          "name": "Patricia Farrell",
+          "role": "Customer Operations Director",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 5,
+          "outOfHours": false
+        }
+      ],
+      "chat": {
+        "enabled": false
+      }
+    },
+    {
+      "issue": {
+        "name": "sales",
+        "displayName": "Sales",
+        "information": "Select this option to speak to someone about Sales Support or Commercial Enquiries.",
+        "standalone": false
+      },
+      "customerType": {
+        "name": "carrier",
+        "displayName": "Carrier"
+      },
+      "serviceDesk": {
+        "displayName": "Carrier Support",
+        "contacNumber": "0123456789",
+        "currentlyOpen": true,
+        "alwaysOpen": false,
+        "openingTimes": [
+          {
+            "day": "Monday - Friday",
+            "openTime": "08:00",
+            "closeTime": "18:00"
+          }
+        ]
+      },
+      "contactEmails": [
+        "notrealsupportemail@gamma.co.uk"
+      ],
+      "escalations": [
+        {
+          "name": "Sam Burckhardt",
+          "role": "Internal Account Manager",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 1,
+          "outOfHours": false
+        },
+        {
+          "name": "Leila Aissa Dean",
+          "role": "Business Development Executive",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 2,
+          "outOfHours": false
+        },
+        {
+          "name": "Ashley Love",
+          "role": "Senior Business Development Manager",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 3,
+          "outOfHours": false
+        },
+        {
+          "name": "Paul Burnett",
+          "role": "Account Director",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 4,
+          "outOfHours": false
+        }
+      ],
+      "chat": {
+        "enabled": true,
+        "channel": "chat_a13af843-68dd-4e5f-8169-1f555230e748"
+      }
+    },
+    {
+      "issue": {
+        "name": "faults",
+        "displayName": "Faults",
+        "information": "Select this option for any new or open fault tickets.",
+        "standalone": false
+      },
+      "customerType": {
+        "name": "channel",
+        "displayName": "Channel"
+      },
+      "product": {
+        "name": "mobile",
+        "displayName": "Mobile",
+        "subtitle": "Mobile Voice & Data"
+      },
+      "serviceDesk": {
+        "displayName": "Gamma Service Desk ",
+        "contacNumber": "0123456789",
+        "currentlyOpen": true,
+        "alwaysOpen": false,
+        "openingTimes": [
+          {
+            "day": "Monday - Friday",
+            "openTime": "07:00",
+            "closeTime": "21:00"
+          },
+          {
+            "day": "Saturday",
+            "openTime": "08:00",
+            "closeTime": "18:00"
+          },
+          {
+            "day": "Sunday",
+            "openTime": "09:00",
+            "closeTime": "18:00"
+          }
+        ]
+      },
+      "contactEmails": [
+        "notrealsupportemail@gamma.co.uk"
+      ],
+      "ivrs": [
+        {
+          "name": "Mobile Faults",
+          "details": "Option 3 >> Option 2"
+        }
+      ],
+      "escalations": [
+        {
+          "name": "Duty Manager - Data, IPT & Mobile",
+          "role": "Out of Hours",
+          "email": "thisis@fake.email",
+          "level": 2,
+          "outOfHours": true
+        },
+        {
+          "name": "Emma Stringer",
+          "role": "Channel Support Manager",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 2,
+          "outOfHours": false
+        },
+        {
+          "name": "Thomas Boardman",
+          "role": "Team Supervisor",
+          "email": "notrealsupportemail@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 3,
+          "outOfHours": false
+        },
+        {
+          "name": "George Neill",
+          "role": "Account Director",
+          "email": "george.neill@gamma.co.uk",
+          "telephone": "0123456789",
+          "mobile": "0712345689",
+          "level": 4,
+          "outOfHours": false
+        }
+      ],
+      "chat": {
+        "enabled": true,
+        "channel": "chat_78b5b41a-243b-4bf1-99eb-a7cff2a6c452"
+      }
+    }
+  ]
 }
